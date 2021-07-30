@@ -1,0 +1,60 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Syncopate', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.menu_bar{
+    width: 100%;
+    height: 40px;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.instagram_wrapper, .email_wrapper{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.email_wrapper{
+    padding-left: 10%;
+}
+
+.instagram_wrapper{
+    padding-left: 25px;
+}
+.menu_bar img{
+    height: 22px;
+    width: 22px;
+    padding-right: 5px;
+}
+
+#background_video{
+    position:absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    z-index:-1000;
+    opacity: 60%;
+
+}
+
+#logo_header{
+    position: absolute;
+   top: 35%;
+   left: 31%;
+    
+    width: 40%;
+}
