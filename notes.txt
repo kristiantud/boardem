@@ -1,0 +1,8 @@
+for a navbar
+nav_wrapper
+    top_menu
+        email_wrapper
+          img
+          email
+
+    bottom_menu
