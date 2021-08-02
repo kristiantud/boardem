@@ -153,6 +153,10 @@ body{
     text-shadow: 2px 2px 5px #000000;
 }
 
+.scroll_down a:hover{
+    color: #EEAD0E;
+}
+
 .arrow-down{
     margin-top: -1.5vh;
     position: relative;
@@ -201,18 +205,19 @@ body{
 
 
 .about{
-    height: 700px;
+    height: 680px;
     background-color: black;
     text-align: center;
+    padding-right:20%;
 }
 
 .about_content_wrapper{
-    background-color:rgba(36, 35, 35, 1);
+    background-color:rgb(34, 34, 34, 0.4);
     border: 0.5px solid;
     border-color: #EEAD0E;
     margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 10%;
+    margin-right: 20%;
+    margin-top: 10%; 
 }
 
 #about_title{
@@ -221,8 +226,8 @@ body{
     padding-top: 5%;
 
     /* shadow */
-    -webkit-filter: drop-shadow(5px 5px 5px #000);
-    filter: drop-shadow(5px 5px 5px #000); 
+    -webkit-filter: drop-shadow(5px 5px 2px #000);
+    filter: drop-shadow(5px 5px 2px #000); 
 
 }
 
@@ -245,4 +250,50 @@ body{
 }
 
 
+.faqs{
+    height: 680px;
+    background-color: black;
+    text-align: center;
+    padding-left:20%;
+}
+
+.faqs_content_wrapper{
+    background-color:rgb(34, 34, 34, 0.4);
+    border: 0.5px solid;
+    border-color: #EEAD0E;
+    margin-left: 20%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+#faqs_title{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding-top: 5%;
+    
+
+    /* shadow */
+    -webkit-filter: drop-shadow(5px 5px 2px #000);
+    filter: drop-shadow(5px 5px 2px #000); 
+
+}
+
+#faqs_hr{
+    background-color: #EEAD0E;
+    width: 10%;
+    margin-bottom: 3%;
+}
+
+#faqs_description{
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    text-align: justify;
+
+    /* shadow */
+    -webkit-filter: drop-shadow(5px 5px 5px #000);
+    filter: drop-shadow(5px 5px 5px #000); 
+}
 
