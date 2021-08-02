@@ -9,6 +9,9 @@
     <link rel="icon" href="logos/Monogram White.PNG">
     <title>BOARDEM</title>
 
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--aos-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--aos-->
@@ -26,6 +29,21 @@
         duration: 1000
     });</script>
 
+    <script type="text/javascript">
+        $(window).on("scroll",function(){
+            if($(window).scrollTop()){
+            $('.bottom_menu_bar').addClass('white');
+            $('.nav li a').addClass('white');
+            $('#menu_logo').attr("src","logos/Monogram black.png");
+            } else {
+            $('.bottom_menu_bar').removeClass('white');
+            $('nav li a').removeClass('white');
+            $('#menu_logo').attr("src","logos/Monogram white_OG.png");
+            }
+        })
+    </script>
+
+
 
     <div class="div_wrapper">
 
@@ -42,7 +60,7 @@
             </div>
             
             <div class="bottom_menu_bar">
-                <img id="menu_logo" src="logos/Monogram White-shadow.png">
+                <img id="menu_logo" src="logos/Monogram White_OG.png">
                 <nav>
                     <ul class="nav justify-content-end">
                         <li><a href="#">HOME</a></li>
