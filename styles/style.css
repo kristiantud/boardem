@@ -208,15 +208,16 @@ body{
     height: 680px;
     background-color: black;
     text-align: center;
-    padding-right:20%;
 }
 
 .about_content_wrapper{
     background-color:rgb(34, 34, 34, 0.4);
-    border: 0.5px solid;
+    border-width: thin;
+    border: 1px solid;
     border-color: #EEAD0E;
+    border-color: white;
     margin-left: 30%;
-    margin-right: 20%;
+    margin-right: 30%;
     margin-top: 10%; 
 }
 
@@ -233,7 +234,7 @@ body{
 
 #about_hr{
     background-color: #EEAD0E;
-    width: 10%;
+    width: 15%;
     margin-bottom: 3%;
 }
 
@@ -243,6 +244,7 @@ body{
     margin-right: 10%;
     padding-bottom: 5%;
     text-align: justify;
+    text-transform: uppercase;
 
     /* shadow */
     -webkit-filter: drop-shadow(5px 5px 5px #000);
@@ -251,19 +253,21 @@ body{
 
 
 .faqs{
-    height: 680px;
-    background-color: black;
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
     text-align: center;
-    padding-left:20%;
+    
 }
 
 .faqs_content_wrapper{
     background-color:rgb(34, 34, 34, 0.4);
     border: 0.5px solid;
     border-color: #EEAD0E;
-    margin-left: 20%;
+    margin-left: 30%;
     margin-right: 30%;
     text-align: center;
+    margin-top: 4%;
 }
 
 #faqs_title{
@@ -281,19 +285,35 @@ body{
 
 #faqs_hr{
     background-color: #EEAD0E;
-    width: 10%;
+    width: 15%;
     margin-bottom: 3%;
 }
 
-#faqs_description{
+/* #faqs_description{
     color: white;
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 5%;
     text-align: justify;
 
-    /* shadow */
     -webkit-filter: drop-shadow(5px 5px 5px #000);
     filter: drop-shadow(5px 5px 5px #000); 
+} */
+
+.faqs_description{
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+.faqs_bg{
+    margin-top:-5%;
+    position: absolute;
+    left: 0;
+    max-height: 120%;
+    min-width: 100%;
+    opacity: 20%;
+}
+
 
