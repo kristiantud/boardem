@@ -138,7 +138,7 @@ body{
 
 #background_video{
     position:absolute;
-    left: -12vh;
+    left: -2.6vw;
     /* top:40px; */
     max-height: 100vh;
     min-width: 100%;
@@ -342,6 +342,9 @@ hr{
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
+    /* shadow */
+    -webkit-filter: drop-shadow(5px 5px 2px #000);
+    filter: drop-shadow(5px 5px 2px #000); 
 }
 
 .faqs_bg{
@@ -443,7 +446,7 @@ hr{
 .firstcol{
     margin-top: 6%;
     padding-top: 3%;
-    font-size: 15px;
+    font-size: 18px;
     filter: drop-shadow(5px 5px 2px #000); 
     border-right: 1px solid gray;
     height: 21vh;
