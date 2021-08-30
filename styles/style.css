@@ -248,6 +248,7 @@ body{
     background-color:rgb(34, 34, 34, 0.4);
     border-width: thin;
     border: 1px solid;
+    /* border-color: #EEAD0E; */
     border-color: #EEAD0E;
     /* border-color: white; */
     /* margin-left: 30%;
@@ -304,6 +305,7 @@ hr{
     /* margin-top: 6%; */
     background-color:rgb(34, 34, 34, 0.4);
     border: 0.5px solid;
+    /* border-color: #EEAD0E; */
     border-color: #EEAD0E;
     /* margin-left: 30%;
     margin-right: 30%; */
@@ -369,7 +371,7 @@ hr{
 .carousel{
     margin-left: 30%;
     margin-right: 30%;
-    border: #222 solid 2px;
+    border: #222 solid 1px;
 
 }
 
@@ -430,7 +432,7 @@ hr{
 
 #footer_bg{
     width: 99vw;
-    opacity: 20%;
+    opacity: 10%;
     position: absolute;
     
 }
