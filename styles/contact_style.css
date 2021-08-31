@@ -30,7 +30,7 @@ body{
 
 #back_button{
     margin-left: 20%;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 
 #back_button a:hover{
@@ -45,7 +45,7 @@ body{
     border:#EEAD0E 1px solid;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 2%;
+    margin-top: 1%;
     height: auto;
  
 }
@@ -65,20 +65,21 @@ body{
 #hr{
     background-color: #EEAD0E;
     width: 10%;
-    margin-top: 1%;
+    margin-top: 1.5%;
     margin-bottom: 2%;
 }
 
 form {
     width: 100%;
-    margin-top: 5%;
-    margin-bottom: 6%;
+    margin-top: 3%;
+    margin-bottom: 5%;
 }
 
 .input-group{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     text-transform: uppercase;
     color: #FFF;
+    /* color: #EEAD0E; */
     position:relative;
 }
 
@@ -107,21 +108,21 @@ label{
 
 button{
     padding: 10px 0;
-    color: #EEAD0E;
+    color: #000;
     outline:none;
-    background: transparent;
+    background: #EEAD0E;
     border: 1px solid #EEAD0E;
     width: 40%;
     cursor: pointer;
     margin-left: 15%;
     margin-right: 15%;
-    box-shadow: inset 0 0 0 0 #EEAD0E;
+    box-shadow: inset 0 0 0 0 #000;
     transition: ease-out 0.3s;
 }
 
 button:hover{
-    box-shadow: inset 500px 0 0 0 #EEAD0E;
-    color: #000;
+    box-shadow: inset 50vw 0 0 0 #000;
+    color: #EEAD0E;
 }
 
 input:focus~label,
@@ -131,3 +132,38 @@ textarea:valid~label{
     top: -35px;
     font-size: 13px;
 }
+
+.dropdown select{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    margin-left:15%;
+    margin-right: 15%;
+    width: 70%;
+    padding: 10px;
+    background-color: rgba(63, 62, 62, 0.4);
+    border: 1px solid #EEAD0E;
+    color: white;
+    padding-left: 2.5%;
+}
+
+.dropdown select option{
+    background-color: rgb(54, 54, 54);
+}
+
+.dropdown i{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    margin-left: 15%;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#note{
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
