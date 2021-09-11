@@ -91,28 +91,45 @@ body{
 }
 
 .nav li a {
-    
+    padding-bottom: 3px;
     color: white;
+    text-decoration: none;
     /* -webkit-filter: drop-shadow(5px 5px 5px #000);
     filter: drop-shadow(5px 5px 5px #000);  */
 }
+
+.nav li a:after{
+    transition: all ease-in-out .2s;
+    background: none repeat scroll 0 0 #EEAD0E;
+    content: "";
+    display: block;
+    height:2px;
+    width: 0;
+}
+
 
 .nav li a.white{
     color: black;
 }
 .nav li a:hover.white{
+    transition: 0.3s;
     color: #EEAD0E;
 }
 
 .nav li a:hover{
-    padding-bottom: 5px;
-    border-bottom: 2px solid #EEAD0E;
-    transition: ease-out 0.3s;
+    transition: .3s;
+    /* border-bottom: 1px solid #EEAD0E; */
     color: #EEAD0E;
     text-decoration: none;
+}
+
+
+.nav li a:hover::after{ 
+    width: 100%;
     /* -webkit-filter: drop-shadow(5px 5px 5px #000);
     filter: drop-shadow(5px 5px 3px #000);  */
 }
+
 
 
 
@@ -140,7 +157,7 @@ body{
 #background_video{
     position:absolute;
     left: -2.6vw;
-    /* top:40px; */
+    /* top:-10vh; */
     max-height: 100vh;
     min-width: 100%;
 
@@ -177,7 +194,7 @@ body{
 .scroll_down{
     font-size: 12px;
     text-align: center;
-    margin-top: 30vh;
+    margin-top: 25vh;
     
 }
 .scroll_down a{
@@ -189,6 +206,7 @@ body{
 
 .scroll_down a:hover{
     color: #EEAD0E;
+    transition: .3s;
 }
 
 .arrow-down{
@@ -349,6 +367,7 @@ hr{
     /* shadow */
     -webkit-filter: drop-shadow(5px 5px 2px #000);
     filter: drop-shadow(5px 5px 2px #000); 
+
 }
 
 .faqs_bg{
@@ -368,14 +387,16 @@ hr{
 }
 
 .carousel-item img{
-    opacity: 8%;
+    opacity: 10%;
 }
 
 .carousel{
     margin-left: 20%;
     margin-right: 20%;
     border: #222 solid 1px;
-
+    background-image: linear-gradient(to right, rgba(238, 173, 14, 0.15), rgba(255,0,0,0));
+    /* background-image: linear-gradient(to top, rgba(65, 64, 63, 0.3), rgba(255,0,0,0)); */
+    
 }
 
 
@@ -393,11 +414,11 @@ hr{
 
 .carousel-caption{
     
-    margin-bottom: 15%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-bottom: 12%;
+    margin-left: 6%;
+    margin-right: 6%;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .carousel-caption p{
@@ -480,7 +501,7 @@ hr{
 
 .secondcol button{
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 .thirdcol {
